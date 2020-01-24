@@ -1,4 +1,4 @@
-body {font-family: AEmb; font-style: normal; font-display: fallback; src: url("https://m.media-amazon.com/images/G/01/amazonservices/site/fonts/ember/AmazonEmberDisplay_Rg._TTW_.woff");font-size: 13px; padding: 10px 0px 40px 0px; color: #333;}
+body {font-family: Amazon Ember; font-size: 13px; padding: 10px 0px 40px 0px; color: #333;}
 
 h1 {font-size: 48px; margin-bottom: 20px;}
 .highlighted {color: #06DDA0; opacity: 1; transition: opacity .25s ease-in-out;}
@@ -9,7 +9,7 @@ p a {color: #06DDA0;}
 
 .light-type {color: #777;} /* #06DDA0 */
 .dim {color: #acacac;}
-.fancy {font-family: baskerville, garamond, serif; font-weight: lighter; font-style: italic;}
+.fancy {font-family: Bookerly, baskerville, garamond, serif; font-weight: lighter; font-style: italic;}
 
 #wrapper {margin: 0px auto; max-width: 900px; padding-top: 40px; }
 
