@@ -82,7 +82,9 @@
                         font-weight: 700;
                         font-style: italic; }
 
-body {font-size: 13px; padding: 10px 0px 40px 0px; color: #333;}
+body {font-family: Ember;
+  src: url('https://signal-prod-content.s3.amazonaws.com/static/629864725/insightplatform/font/woff2/AmazonEmber_W_Th.woff2?a250d2357ae7'),
+    url('https://signal-prod-content.s3.amazonaws.com/static/629864725/insightplatform/font/woff/AmazonEmber_W_Th.woff?553ce3760d9d');font-size: 13px; padding: 10px 0px 40px 0px; color: #333;}
 
 h1 {font-size: 48px; margin-bottom: 20px; font-weight: 700;}
 .highlighted {color: #06DDA0; opacity: 1; transition: opacity .25s ease-in-out;}
