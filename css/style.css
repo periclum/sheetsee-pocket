@@ -84,7 +84,7 @@
 
 body {font-size: 13px; padding: 10px 0px 40px 0px; color: #333;}
 
-h1 {font-size: 48px; margin-bottom: 20px;}
+h1 {font-size: 48px; margin-bottom: 20px; font-weight: 700}
 .highlighted {color: #06DDA0; opacity: 1; transition: opacity .25s ease-in-out;}
 .highlighted:hover {opacity: 0.5;}
 a {text-decoration: none; color: #333;}
@@ -116,9 +116,9 @@ tr:nth-child(2n+2) {background: #eee;}
 .tHeader {cursor: pointer;}
 .tHeader::after {content: " \2193 \2191 "; font-size: 10px; padding-left: 3px;}
 
-input {margin: 12px 0px; border: none; border-bottom: 1px solid #333; background-color: transparent; padding: 0px; color: #acacac; font-size: 13px; height: 22px; font-family: Montserrat;}
+input {margin: 12px 0px; border: none; border-bottom: 1px solid #333; background-color: transparent; padding: 0px; color: #acacac; font-size: 13px; height: 22px; font-family: Ember;}
 
-.sml-button {border-radius: 1px; cursor: pointer; margin-left: 4px; padding: 4px 6px; background-color: #06DDA0; font-size: 11px; text-transform: uppercase; letter-spacing: .1em; text-align: center; color: #fff; font-family: Montserrat;}
+.sml-button {border-radius: 1px; cursor: pointer; margin-left: 4px; padding: 4px 6px; background-color: #06DDA0; font-size: 11px; text-transform: uppercase; letter-spacing: .1em; text-align: center; color: #fff; font-family: Ember;}
 .sml-button:hover {background: #eee;}
 .button-pressed {background: #0CCC96;}
 
