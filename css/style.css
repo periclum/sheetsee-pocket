@@ -1,4 +1,88 @@
-body {font-family: Amazon Ember; font-size: 13px; padding: 10px 0px 40px 0px; color: #333;}
+@font-face {
+  font-family: Ember;
+  src: url('https://signal-prod-content.s3.amazonaws.com/static/629864725/insightplatform/font/woff2/AmazonEmber_W_Th.woff2?a250d2357ae7'),
+    url('https://signal-prod-content.s3.amazonaws.com/static/629864725/insightplatform/font/woff/AmazonEmber_W_Th.woff?553ce3760d9d');
+  font-weight: 100;
+  font-style: normal; }
+
+  @font-face {
+    font-family: Ember;
+    src: url('https://signal-prod-content.s3.amazonaws.com/static/629864725/insightplatform/font/woff2/AmazonEmber_W_ThIt.woff2?a250d2357ae7'),
+        url('https://signal-prod-content.s3.amazonaws.com/static/629864725/insightplatform/font/woff/AmazonEmber_W_ThIt.woff?68c1b9724f8b');
+    font-weight: 100;
+    font-style: italic; }
+
+    @font-face {
+      font-family: Ember;
+      src: url('https://signal-prod-content.s3.amazonaws.com/static/629864725/insightplatform/font/woff2/AmazonEmber_W_Lt.woff2?68c1b9724f8b'),
+            url('https://signal-prod-content.s3.amazonaws.com/static/629864725/insightplatform/font/woff/AmazonEmber_W_Lt.woff?553ce3760d9d');
+      font-weight: 200;
+      font-style: normal; }
+
+      @font-face {
+        font-family: Ember;
+        src: url('https://signal-prod-content.s3.amazonaws.com/static/629864725/insightplatform/font/woff2/AmazonEmber_W_LtIt.woff2?a250d2357ae7'),
+                url('https://signal-prod-content.s3.amazonaws.com/static/629864725/insightplatform/font/woff/AmazonEmber_W_LtIt.woff?68c1b9724f8b');
+        font-weight: 200;
+        font-style: italic; }
+
+        @font-face {
+          font-family: Ember;
+          src: url('https://signal-prod-content.s3.amazonaws.com/static/629864725/insightplatform/font/woff2/AmazonEmber_W_Rg.woff2?a250d2357ae7'),
+                    url('https://signal-prod-content.s3.amazonaws.com/static/629864725/insightplatform/font/woff/AmazonEmber_W_Rg.woff?68c1b9724f8b');
+          font-weight: 400;
+          font-style: normal; }
+
+          @font-face {
+            font-family: Ember;
+            src: url('https://signal-prod-content.s3.amazonaws.com/static/629864725/insightplatform/font/woff2/AmazonEmber_W_RgIt.woff2?a250d2357ae7'),
+                        url('https://signal-prod-content.s3.amazonaws.com/static/629864725/insightplatform/font/woff/AmazonEmber_W_RgIt.woff?68c1b9724f8b');
+            font-weight: 400;
+            font-style: italic; }
+
+            @font-face {
+              font-family: Ember;
+              src: url('https://signal-prod-content.s3.amazonaws.com/static/629864725/insightplatform/font/woff2/AmazonEmber_W_SBd.woff2?a250d2357ae7'),
+                            url('https://signal-prod-content.s3.amazonaws.com/static/629864725/insightplatform/font/woff/AmazonEmber_W_SBd.woff?68c1b9724f8b');
+              font-weight: 500;
+              font-style: normal; }
+
+              @font-face {
+                font-family: Ember;
+                src: url('https://signal-prod-content.s3.amazonaws.com/static/629864725/insightplatform/font/woff2/AmazonEmber_W_SBdIt.woff2?a250d2357ae7'),
+                                url('https://signal-prod-content.s3.amazonaws.com/static/629864725/insightplatform/font/woff/AmazonEmber_W_SBdIt.woff?68c1b9724f8b');
+                font-weight: 500;
+                font-style: italic; }
+
+                @font-face {
+                  font-family: Ember;
+                  src: url('https://signal-prod-content.s3.amazonaws.com/static/629864725/insightplatform/font/woff2/AmazonEmber_W_Bd.woff2?a250d2357ae7'),
+                                    url('https://signal-prod-content.s3.amazonaws.com/static/629864725/insightplatform/font/woff/AmazonEmber_W_Bd.woff?68c1b9724f8b');
+                  font-weight: 600;
+                  font-style: normal; }
+
+                  @font-face {
+                    font-family: Ember;
+                    src: url('https://signal-prod-content.s3.amazonaws.com/static/629864725/insightplatform/font/woff2/AmazonEmber_W_BdIt.woff2?a250d2357ae7'),
+                                        url('https://signal-prod-content.s3.amazonaws.com/static/629864725/insightplatform/font/woff/AmazonEmber_W_BdIt.woff?68c1b9724f8b');
+                    font-weight: 600;
+                    font-style: italic; }
+
+                    @font-face {
+                      font-family: Ember;
+                      src: url('https://signal-prod-content.s3.amazonaws.com/static/629864725/insightplatform/font/woff2/AmazonEmber_W_He.woff2?68c1b9724f8b'),
+                                            url('https://signal-prod-content.s3.amazonaws.com/static/629864725/insightplatform/font/woff/AmazonEmber_W_He.woff?553ce3760d9d');
+                      font-weight: 700;
+                      font-style: normal; }
+
+                      @font-face {
+                        font-family: Ember;
+                        src: url('https://signal-prod-content.s3.amazonaws.com/static/629864725/insightplatform/font/woff2/AmazonEmber_W_HeIt.woff2?a250d2357ae7'),
+                                                url('https://signal-prod-content.s3.amazonaws.com/static/629864725/insightplatform/font/woff/AmazonEmber_W_HeIt.woff?553ce3760d9d');
+                        font-weight: 700;
+                        font-style: italic; }
+
+body {font-size: 13px; padding: 10px 0px 40px 0px; color: #333;}
 
 h1 {font-size: 48px; margin-bottom: 20px;}
 .highlighted {color: #06DDA0; opacity: 1; transition: opacity .25s ease-in-out;}
