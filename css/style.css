@@ -30,7 +30,7 @@ h1 {font-size: 48px; margin-bottom: 20px; font-weight: 300;}
 .highlighted:hover {opacity: 0.5;}
 a {text-decoration: none; color: #333;}
 a:hover {padding-bottom: 1px; border-bottom: 1px dotted #333;}
-p a {color: #06DDA0;}
+p a {color: #FF9900;}
 
 .light-type {color: #777;} /* #06DDA0 */
 .dim {color: #acacac;}
