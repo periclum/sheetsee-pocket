@@ -57,9 +57,9 @@ tr:nth-child(2n+2) {background: #eee;}
 .tHeader {cursor: pointer;}
 .tHeader::after {content: " \2193 \2191 "; font-size: 10px; padding-left: 3px;}
 
-input {margin: 12px 0px; border: none; border-bottom: 1px solid #333; background-color: transparent; padding: 0px; color: #acacac; font-size: 13px; height: 22px;}
+input {font-family: 'Ember'; font-weight: light; margin: 12px 0px; border: none; border-bottom: 1px solid #333; background-color: transparent; padding: 0px; color: #acacac; font-size: 13px; height: 22px;}
 
-.sml-button {border-radius: 1px; cursor: pointer; margin-left: 4px; padding: 4px 6px; background-color: #005276; font-size: 11px; text-transform: uppercase; letter-spacing: .1em; text-align: center; color: #fff;}
+.sml-button {hyphens: manual; border-radius: 1px; cursor: pointer; margin-left: 4px; padding: 4px 6px; background-color: #005276; font-size: 11px; text-transform: uppercase; letter-spacing: .1em; text-align: center; color: #fff;}
 .sml-button:hover {background: #eee;}
 .button-pressed {background: #0CCC96;}
 
